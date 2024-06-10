@@ -1,0 +1,16 @@
+// Promise Chaining Concept; 
+
+let getUsers= new Promise((resolve,reject)=>{
+const user = {
+name:"abhi",
+address:"bengaluru"
+}
+resolve(user)
+}
+)
+
+getUsers.then((user)=>{
+console.log(`${user.name}`)
+return user.address;
+}).then((add)=>
+console.log(`the address is ${add}`))
