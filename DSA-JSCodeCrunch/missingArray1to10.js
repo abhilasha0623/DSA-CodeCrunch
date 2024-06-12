@@ -1,4 +1,4 @@
-//find the missing elements in thae array from 1 to 10
+//find the missing elements in thae array from 1 to 10 sorted arrray
 //output  [4, 6, 8]
 let arr=[1,2,3,5,7,9,10]
 
