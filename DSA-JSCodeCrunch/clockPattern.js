@@ -1,0 +1,10 @@
+let today= new Date()
+console.log(today)
+let dd= today.getDate()
+let mm=String(today.getMonth()+1).padStart(2,"0")
+let yyyy= today.getFullYear()
+
+console.log(mm+'-'+dd+'-'+yyyy)
+console.log(mm+'/'+dd+'/'+yyyy)
+console.log(dd+'-'+mm+'-'+yyyy)
+console.log(dd+'/'+mm+'/'+yyyy)
