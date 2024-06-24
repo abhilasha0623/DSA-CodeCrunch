@@ -17,6 +17,4 @@ for(let i=0;i<zeros;i++){
  
  return nonZeroArray
 }
-
-
 console.log(arrayShift(ar))
