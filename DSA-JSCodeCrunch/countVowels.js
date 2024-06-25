@@ -15,4 +15,4 @@ function countVowels(str){
     return count
 }
 
-console.log(countVowels(str))
+console.log(countVowels(str)) //2
