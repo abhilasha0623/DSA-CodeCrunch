@@ -17,7 +17,7 @@ function init(a) {
            console.log(result.join("\n"));
         } 
     }
-    init(11);
+    init(9);
 
     //Output
 // Z Y X W V U T S R Q P O
